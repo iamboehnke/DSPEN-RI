@@ -1,12 +1,12 @@
 # DSPEN-RI
 A Data Scientific Perspective on Equities: A Neural Network Analysis of Economic News and Its Ability to Predict the Risk of Investment
 
-1. Research Questions
+Research Questions:
 We have two research questions, which we will attempt to answer. They are as follows:
 Can we develop both a dictionary-based and a neural network-based language model using news articles to analyze the sentiment of certain equities, classifying them as positive, negative, or neutral, and can we use these same models to quantify the uncertainty expressed in these articles related to these equities?
 Can the insights from the sentiment and uncertainty analysis using these two models be used to predict risk, as proxied by the volatility index (VIX), and to explore the relationship between sentiment, uncertainty, and the variance of returns for a diversified portfolio of stocks, for example within emerging markets?
 
-2. Methods
+Methods:
 Initially, we will be developing two models, a dictionary-based model and a neural network-based model to carry out an analysis of the array of news articles that we will acquire. We will be using the programming language Python to build both models.
 
 The dictionary model (Mengelkamp, Koch, & Schumann, 2022) is the preliminary phase of the project. This is only developed as a comparative object to the main neural network model. There are versions of this model online. However, as this model is fairly easy to program, and as we want it to specifically suit the needs of our project, we may have to develop this ourselves. Alternatively, if we find a dictionary model close to the particular analysis, we wish to execute, then we may choose to use that instead and customize it to meet the requirements of our project.
@@ -21,7 +21,7 @@ We want to investigate whether the insights from the sentiment and uncertainty a
 
 In conclusion, we will round off the methods section of our project with a second perspective on the results of our analysis of the second research question. This will be done by looking at what percentage of correct predictions we are able to attain using our models. The results of this analysis can then lastly be set up in a confusion matrix showing true and false negatives and positives (Narkhede, 2018). From this we will be able to calculate the metrics precision and recall of our results. Finally, from this we will likewise be able to calculate the F1 score (Kundu, 2022). This will sum up the results of the method section of our project.
 
-3. Data
+Data:
 In regard to data, our original plan was to download financial news articles from Bloomberg at the SDU Library, but due to certain limitations, this is less feasible. We have, however, found an alternative, also at the library, which is a database of curated articles called Nexis Uni. With Nexis Uni we can download up to 500 articles at a time. This will cover our needs. The articles are curated and from recognized news outlets such as The New York Times, The Guardian and The Economist. In addition to this we can limit the search to specific equities and time intervals.
 
 As to the financial data needed for our analysis on the prediction of equities, there are several free databases online with historical equity data such as Yahoo Finance and Google Finance. Additionally, we have applied for access to the CRSP financial database at the Wharton Research Data Services through the SDU Library. The CRSP database, although nice to have access to, may, however, not be strictly necessary for our project. Most other data needed for our project can be retrieved either online or through the university library.
